@@ -1,5 +1,5 @@
 <!-- <?php
-   // require 'db/data.php';
+    // require 'db/data.php';
     // require 'db/visits.php';
 ?> -->
 <!DOCTYPE html>
@@ -35,7 +35,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
 
 
-    <meta property="og:image" content="<?php  $_SERVER['SERVER_NAME']; ?>/img/og.png" />
+    <meta property="og:image" content="http://allinsol.com/img/og.png" />
     <meta property="og:image:type" content="image/png" />
     <meta property="og:image:width" content="300" />
     <meta property="og:image:height" content="300" />
@@ -59,8 +59,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
                             <!-- HEADER STYLES -->
 <style>@font-face{font-family:'latoblack';src:url(fonts/lato/latoblack.woff2) format("woff2"),url(fonts/lato/latoblack.woff) format("woff");font-weight:400;font-style:normal}@font-face{font-family:'latobold';src:url(fonts/lato/latobold.woff2) format("woff2"),url(fonts/lato/latobold.woff) format("woff");font-weight:400;font-style:normal}@font-face{font-family:'latoregular';src:url(fonts/lato/latoregular.woff2) format("woff2"),url(fonts/lato/latoregular.woff) format("woff");font-weight:400;font-style:normal}@font-face{font-family:'GothamPro-Black';src:url(fonts/gotham/GothamPro-Black.woff2) format("woff2"),url(fonts/gotham/GothamPro-Black.woff) format("woff");font-weight:400;font-style:normal}@font-face{font-family:'GothamPro-Bold';src:url(fonts/gotham/GothamPro-Bold.woff2) format("woff2"),url(fonts/gotham/GothamPro-Bold.woff) format("woff");font-weight:400;font-style:normal}
-.bar-long { height: 5px; background-color: #4097a2; width: 0px; z-index: 1000; position: fixed; top: 0px; left: 0;}.yellow{color:#fab509}.blue{color:#4097a2}body{font:17px 'latoregular',sans-serif;font-weight:400;color:#000}body.modal-open{overflow:hidden}button,a{border:none;outline:none}h2{font:36px/42px 'GothamPro-Black',sans-serif}input{height:70px;width:100%;border:1px solid #fff;background:#fff;padding:0 20px;font:18px/68px latoregular,sans-serif;letter-spacing:.15em}input::-webkit-input-placeholder{color:#000;font-family:"latoblack",sans-serif;font-size:10px;font-weight:400;text-transform:uppercase;letter-spacing:.25em}input:-moz-placeholder{color:#000;font-family:"latoblack",sans-serif;font-size:10px;text-transform:uppercase;letter-spacing:.25em}input::-moz-placeholder{color:#000;font-family:"latoblack",sans-serif;font-size:10px;text-transform:uppercase;letter-spacing:.25em}input:-ms-input-placeholder{color:#000;font-family:"latoblack",sans-serif;font-size:10px;text-transform:uppercase;letter-spacing:.25em}.btn{background:#fab509;font-family:"latoblack",sans-serif;font-size:12px;height:70px;text-transform:uppercase;color:#000;position:relative;overflow:hidden;letter-spacing:.25em;font-weight:900;-moz-transition:.7s;-o-transition:.7s;-webkit-transition:.7s;transition:.7s}.btn:before{content:"";position:absolute;right:auto;bottom:auto;left:50%;margin-left:-5px;top:-60px;width:10px;height:10px;background:#000;border-radius:50%;-moz-transition:.7s;-o-transition:.7s;-webkit-transition:.7s;transition:.7s}.btn span{position:relative}.btn:hover,.btn:focus{color:#fab509}.btn:hover:before,.btn:focus:before{width:500px;height:500px;opacity:1;left:50%;margin-left:-250px}#sec_01{height:100vh;min-height:950px;position:relative;color:#fff;padding:65px 0 190px}#sec_01 .grid_12{padding:0 28px 0 40px}#sec_01 #video-bg{position:absolute;top:0;right:0;bottom:0;left:0;overflow:hidden;z-index:-1;background:url(img/poster.png) no-repeat #0B2C33;background-size:cover}#sec_01 #video-bg:before{position:absolute;content:'';width:100%;z-index:1;height:100%;left:0;top:0;right:0;bottom:0;background:url(img/sec_01-bg_cover.png) top center no-repeat}#sec_01 #video-bg > video{position:absolute;top:0;left:0;min-width:100%;min-height:100%;width:auto;height:auto}#sec_01 .top{letter-spacing:.25em;font-family:"GothamPro-Bold",sans-serif;margin-bottom:52px}#sec_01 .top .logo{float:left}#sec_01 .top .phones{float:right;font-size:14px;text-transform:uppercase;letter-spacing:.2em}#sec_01 .top .phones a{line-height:24px;color:#fff}#sec_01 .top .phones a:hover{color:#fab509}#sec_01 .top .phones .md-trigger{position:relative}#sec_01 .top .phones .md-trigger:before{position:absolute;content:'';width:100%;height:2px;background:#fab509;left:0;bottom:-5px;transition:all 1s}#sec_01 .top .phones .md-trigger:hover:before{width:0}#sec_01 .beforeheader{color:#fab509;font-family:"latobold",sans-serif;font-size:20px;line-height:27px}#sec_01 .beforeheader .wrap{display:inline-block;text-align:center;width:27px}#sec_01 h1{font-family:"GothamPro-Black",sans-serif;font-size:100px;line-height:110px;text-transform:uppercase;margin:32px 0 20px -10px}#sec_01 .afterheader{font-family:"GothamPro-Black",sans-serif;font-size:36px;line-height:56px;margin-bottom:30px}#sec_01 .text{font-size:18px;margin-bottom: 10px;}#sec_01 .block_text{float:left;padding-top:70px}#sec_01 .block_form{position:relative;float:right;vertical-align:top;width:380px;text-align:center;position:relative;padding:60px 30px;background:rgba(0,0,0,0.2)}#sec_01 .block_form:before{position:absolute;content:'';width:190px;height:190px;left:-190px;bottom:4px;background:url(img/stamp.png) center no-repeat}#sec_01 .field{max-width:320px;width:100%}#sec_01 .field + .field{margin-top:10px}#sec_01 .btn{max-width:320px;width:100%;margin:10px 0 30px}#sec_01 .small_text{font:8px 'GothamPro-Bold',sans-serif;text-transform:uppercase;letter-spacing:.57em}#sec_01 .form_title{font-size:16px;line-height:21px;letter-spacing:.15em;margin-bottom:40px;text-transform:uppercase;font-family:"latobold",sans-serif}#sec_01 .form_title span{font-family:"latoblack",sans-serif;margin-bottom:20px}#sec_01 .grid_12{position:relative}#sec_01 .btndwn{position:absolute;bottom:-190px;width:190px;height:190px;left:383px;transition:.5s}#sec_01 .btndwn:hover{background:rgba(255,255,255,0.1)}.iti-flag {background-image: url("img/flags.png");}.intl-tel-input {width: 100%;}.intl-tel-input.allow-dropdown.separate-dial-code .selected-dial-code{display:table-cell;vertical-align:middle;color:#000;font-size:14px;padding-left:12px!important;line-height:26px}.country-list{color: #000;}
-@media screen and (max-height: 900px){#sec_01{padding-top:40px}}@media screen and (max-height: 800px){#sec_01{padding-top:40px}#sec_01 .top{margin-bottom:30px}}@media (max-width: 767px){#sec_02,#sec_03,#sec_09,#sec_12{display:none}#sec_01{height:auto;min-height:auto;text-align:center;padding:30px 0 60px}#sec_01 video{display:none}#sec_01 .grid_12{padding:0}#sec_01 .top{margin:0 0 10px}#sec_01 .block_text{padding-top:25px;float:none}#sec_01 .block_text h1{font-size:60px;line-height:55px;margin:10px 0}#sec_01 .block_text .afterheader{font-size:20px;line-height:36px;margin-bottom:15px}#sec_01 .block_form{padding-top:30px;margin-top:20px;background:rgba(0,0,0,0.7);width:100%;float:none}#sec_01 .block_form .field{margin-top:5px!important}#sec_01 .block_form .btn{vertical-align:top;margin-top:5px}#sec_01 .block_form:before{display:none}#sec_01 #video-bg:before{display:none}}@media (max-width: 420px){h2{font-size: 26px !important; line-height: 36px !important;}.btn{width:100%!important;max-width:320px}#sec_01 h1{font-size:44px!important}#sec_01 .logo{display:none}#sec_01 .top .phones{float:none}}
+.bar-long { height: 5px; background-color: #4097a2; width: 0px; z-index: 1000; position: fixed; top: 0px; left: 0;}
 </style>
 
 
@@ -543,12 +542,12 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         <div class="grid_12">
             <img src="img/sec_09-baner.png" alt="Note">
             <div class="text_block">
-                <h2>Вы испишете свой блокнот <br /> готовыми задачами для  <br /> Ваших сотрудников</h2>
+                <h2>Вы испишете свой блокнот <br /> готовыми задачами для Вас <br /> и Ваших сотрудников</h2>
                 <p class="h2_desc">которые можно внедрить уже со следующей недели</p>
                 <ul>
                     <li><span class="i-wrap"><i class="fa fa-check-square-o" aria-hidden="true"></i></span> Примите стратегически важные решения для развития Вашего бизнеса</li>
                     <li><span class="i-wrap"><i class="fa fa-check-square-o" aria-hidden="true"></i></span> Узнаете способы «выхода» из бизнеса для освобождения себя от выполнения операционных процессов</li>
-                    <li><span class="i-wrap"><i class="fa fa-check-square-o" aria-hidden="true"></i></span> Составите план формироавния команды A-Players</li>
+                    <li><span class="i-wrap"><i class="fa fa-check-square-o" aria-hidden="true"></i></span> Составите план формирования команды A-Players</li>
                     <li><span class="i-wrap"><i class="fa fa-check-square-o" aria-hidden="true"></i></span> Внедрите западные инструменты привлечения клиентов и выстраивания с ними отношений</li>
                     <li><span class="i-wrap"><i class="fa fa-check-square-o" aria-hidden="true"></i></span> Заложите фундамент в построении и автоматизации отдела продаж</li>
                     <li><span class="i-wrap"><i class="fa fa-check-square-o" aria-hidden="true"></i></span> Примените в своем бизнесе опыт выпускников full-time MBA и лучших мировых практиков</li>
@@ -1412,25 +1411,13 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                   <p>9.2. Стороны договорились, что в случае возникновения обстоятельств, предусмотренных п. 9.1. Договора, срок исполнения обязательств по настоящему договору отодвигается на период времени, в течение которого действовали эти обстоятельства и их последствия.</p>
                   <p>9.3. Если форс-мажорные обстоятельства и их последствия продолжают действовать более шести месяцев, стороны в кратчайшие сроки должны провести переговоры с целью выявления приемлемых для обеих Сторон альтернативных способов исполнения условий настоящего Договора и достижения соответствующих письменных договоренностей.</p>
                   <p><strong>10. ДРУГИЕ ПОЛОЖЕНИЯ</strong></p>
-
-
-<p>10.1. Заказчик гарантирует, что все условия оферты ему понятны и он принимает их безусловно и в полном объеме, без каких-либо условий, изъятий и оговорок. </p>
-
-
-<p>10.2. В случае, который не урегулирован настоящим договором, Стороны обязуются руководствоваться нормами, установленными действующим законодательством Украины. </p>
-
-
-<p>10.3. К данному договору применяется законодательство Украины. </p>
-
-
-<p>10.4. Исполнитель по настоящему Договору является ФОП Кушнир О.А. и/или иное лицо, имеющее право на предоставление таких Информационных услуг. </p>
-
-
-<p>10.5. Стороны дают друг другу согласие на обработку и хранение персональных данных, которые становятся известными им, в связи с заключением настоящего договора, в пределах, в которых это необходимо в соответствии с требованиями действующего законодательства Украины. </p>
-
-
-<p>10.6. В случае, если любое из условий и/или положений настоящего Договора окажется/будет признано недействительным, то это не повлияет на действительность других его условий/положений, а также на Договор и его исполнение в целом, как если бы такое никогда не было частью настоящего Договора.</p>
-                </div>
+                  <p>10.1. Заказчик гарантирует, что все условия оферты ему понятны и он принимает их безусловно и в полном объеме, без каких-либо условий, изъятий и оговорок. </p>
+                  <p>10.2. В случае, который не урегулирован настоящим договором, Стороны обязуются руководствоваться нормами, установленными действующим законодательством Украины. </p>
+                  <p>10.3. К данному договору применяется законодательство Украины. </p>
+                  <p>10.4. Исполнитель по настоящему Договору является ФОП Кушнир О.А. и/или иное лицо, имеющее право на предоставление таких Информационных услуг. </p>
+                  <p>10.5. Стороны дают друг другу согласие на обработку и хранение персональных данных, которые становятся известными им, в связи с заключением настоящего договора, в пределах, в которых это необходимо в соответствии с требованиями действующего законодательства Украины. </p>
+                  <p>10.6. В случае, если любое из условий и/или положений настоящего Договора окажется/будет признано недействительным, то это не повлияет на действительность других его условий/положений, а также на Договор и его исполнение в целом, как если бы такое никогда не было частью настоящего Договора.</p>
+              </div>
             </div>
         </div>
     <div class="md-modal md-effect-4" id="modal_callback_ok">
